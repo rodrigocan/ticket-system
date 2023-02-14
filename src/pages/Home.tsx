@@ -1,5 +1,9 @@
-import { Button } from '@mui/material'
+import { LoginButton } from '../components/LoginButton'
 
 export function Home() {
-  return <Button variant="contained">Home</Button>
+  return (
+    <>
+      <LoginButton />
+    </>
+  )
 }
